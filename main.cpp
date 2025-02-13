@@ -297,7 +297,7 @@ int main() {
 }
 */
 
-
+/*
 //Problem9
 int main() {
     int num;
@@ -317,6 +317,22 @@ int main() {
     else cout << "Number is not prime" << endl;
     return 0;
 }
+*/
+
+//Problem10
+
+int main() {
+    int n, sum = 0;
+    cout << "Enter n: ";
+    cin >> n;
+    for (int i = 1; i <= n; i++) {
+        cout << i << "*" << i << "=" << i * i << endl;
+        sum += i * i;
+    }
+    cout << "Total Sum: " << sum << endl;
+    return 0;
+}
+
 
 /*
 //Problem
