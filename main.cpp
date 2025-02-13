@@ -211,7 +211,7 @@ int main() {
     return 0;
 }
 */
-
+/*
 //Problem5
 int main() {
     int numClasses;
@@ -229,6 +229,73 @@ int main() {
     cout << "Your total GPA is: " << totalGPA << endl;
     return 0;
 }
+*/
+
+/*
+
+//Problem6
+int main() {
+    int numStudents;
+    cout << "Enter number of students: ";
+    cin >> numStudents;
+
+    for (int i = 0; i < numStudents; i++) {
+        int numClasses;
+        double totalCredits = 0, weightedSum = 0;
+
+        cout << "Enter the number of classes for student " << i + 1 << ": ";
+        cin >> numClasses;
+
+        for (int j = 0; j < numClasses; j++) {
+            double credits, grade;
+            cout << "Enter credits and GPA: ";
+            cin >> credits >> grade;
+            totalCredits += credits;
+            weightedSum += credits * grade;
+        }
+
+        double totalGPA = weightedSum / totalCredits;
+        cout << "Student " << i + 1 << " GPA: " << totalGPA << endl;
+    }
+
+    return 0;
+}
+
+*/
+
+/*
+//Problem7
+int main() {
+    int size;
+    cout << "Enter size of square: ";
+    cin >> size;
+    for (int i = 0; i < size; i++) {
+        for (int j = 0; j < size; j++) {
+            cout << "*";
+        }
+        cout << endl;
+    }
+    return 0;
+}
+
+*/
+
+/*
+//Problem8
+int main() {
+    int height;
+    cout << "Enter height: ";
+    cin >> height;
+
+    for (int i = 1; i <= height; i++) {
+        for (int j = 1; j <= i; j++) {
+            cout << "*";
+        }
+        cout << endl;
+    }
+    return 0;
+}
+*/
 
 /*
 //Problem
